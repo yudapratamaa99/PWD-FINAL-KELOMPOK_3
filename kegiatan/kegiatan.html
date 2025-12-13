@@ -16,38 +16,38 @@
       <p>Data Kependudukan Skala RT & RW</p>
     </div>
 
-<ul class="menu">
-        <li>
-          <a href="../dashboard/dashboard.html" class="menu-item">
-            <span class="menu-icon">📊</span>
-            <span>Dashboard</span>
-          </a>
-        </li>
-        <li>
-          <a href="../datawarga/datawarga.html" class="menu-item">
-            <span class="menu-icon">👥</span>
-            <span>Data Warga</span>
-          </a>
-        </li>
-        <li>
-          <a href="../kegiatan/kegiatan.html" class="menu-item active">
-            <span class="menu-icon">📢</span>
-            <span>Kegiatan/Pengumuman</span>
-          </a>
-        </li>
-        <li>
-          <a href="../laporan/laporan.html" class="menu-item">
-            <span class="menu-icon">📈</span>
-            <span>Laporan RT/RW</span>
-          </a>
-        </li>
-        <li>
-          <a href="../kritiksaran/kritiksaran.html" class="menu-item">
-            <span class="menu-icon">💬</span>
-            <span>Kritik dan Saran</span>
-          </a>
-        </li>
-      </ul>
+    <ul class="menu">
+      <li>
+        <a href="../dashboard/dashboard.html" class="menu-item">
+          <span class="menu-icon">📊</span>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="../datawarga/datawarga.html" class="menu-item">
+          <span class="menu-icon">👥</span>
+          <span>Data Warga</span>
+        </a>
+      </li>
+      <li>
+        <a href="../kegiatan/kegiatan.html" class="menu-item active">
+          <span class="menu-icon">📢</span>
+          <span>Kegiatan/Pengumuman</span>
+        </a>
+      </li>
+      <li>
+        <a href="../laporan/laporan.html" class="menu-item">
+          <span class="menu-icon">📈</span>
+          <span>Laporan RT/RW</span>
+        </a>
+      </li>
+      <li>
+        <a href="../kritiksaran/kritiksaran.html" class="menu-item">
+          <span class="menu-icon">💬</span>
+          <span>Kritik dan Saran</span>
+        </a>
+      </li>
+    </ul>
 
     <div class="user-section">
       <div class="user-info">
@@ -59,7 +59,7 @@
           </p>
         </div>
       </div>
-    <a href="../loginpage/login.html" class="btn-logout">Keluar</a>
+      <a href="../loginpage/login.html" class="btn-logout">Keluar</a>
     </div>
   </aside>
 
@@ -68,6 +68,39 @@
     <div class="header">
       <h1>Kegiatan & Pengumuman</h1>
       <p>Informasi kegiatan warga dan pengumuman resmi RT/RW</p>
+    </div>
+
+    <!-- Form Tambah Kegiatan -->
+    <div class="content-card">
+      <h3>➕ Tambah Kegiatan Baru</h3>
+      <form class="form-kegiatan">
+        <div class="form-group">
+          <label for="judul-kegiatan">Judul Kegiatan</label>
+          <input type="text" id="judul-kegiatan" name="judul-kegiatan" placeholder="Contoh: Kerja Bakti Bulanan" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="tanggal-kegiatan">Tanggal Kegiatan</label>
+          <input type="date" id="tanggal-kegiatan" name="tanggal-kegiatan" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="deskripsi-kegiatan">Deskripsi Kegiatan</label>
+          <textarea id="deskripsi-kegiatan" name="deskripsi-kegiatan" rows="3" placeholder="Jelaskan detail kegiatan..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="kategori-kegiatan">Kategori</label>
+          <select id="kategori-kegiatan" name="kategori-kegiatan" required>
+            <option value="">Pilih Kategori</option>
+            <option value="terjadwal">Terjadwal</option>
+            <option value="informasi">Informasi</option>
+            <option value="kegiatan-umum">Kegiatan Umum</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="btn-submit">Tambah Kegiatan</button>
+      </form>
     </div>
 
     <!-- Kegiatan -->
@@ -100,6 +133,39 @@
         </div>
         <span class="badge warning">Kegiatan Umum</span>
       </div>
+    </div>
+
+    <!-- Form Tambah Pengumuman -->
+    <div class="content-card">
+      <h3>➕ Tambah Pengumuman Baru</h3>
+      <form class="form-pengumuman">
+        <div class="form-group">
+          <label for="judul-pengumuman">Judul Pengumuman</label>
+          <input type="text" id="judul-pengumuman" name="judul-pengumuman" placeholder="Contoh: Pembayaran Iuran Wajib" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="tanggal-pengumuman">Tanggal Diumumkan</label>
+          <input type="date" id="tanggal-pengumuman" name="tanggal-pengumuman" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="deskripsi-pengumuman">Isi Pengumuman</label>
+          <textarea id="deskripsi-pengumuman" name="deskripsi-pengumuman" rows="3" placeholder="Tulis pengumuman..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="kategori-pengumuman">Kategori</label>
+          <select id="kategori-pengumuman" name="kategori-pengumuman" required>
+            <option value="">Pilih Kategori</option>
+            <option value="penting">Penting</option>
+            <option value="informasi">Informasi</option>
+            <option value="resmi">Resmi</option>
+          </select>
+        </div>
+        
+        <button type="submit" class="btn-submit">Tambah Pengumuman</button>
+      </form>
     </div>
 
     <!-- Pengumuman -->

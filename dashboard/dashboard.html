@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Web Kependudukan RT/RW</title>
+
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-dashboard">🏘️</div>
+        <h2>Sistem Data Kependudukan</h2>
+        <p>Data Kependudukan Skala RT & RW</p>
+      </div>
+
+      <ul class="menu">
+        <li>
+          <a href="../dashboard/dashboard.html" class="menu-item">
+            <span class="menu-icon">📊</span>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="../datawarga/datawarga.html" class="menu-item">
+            <span class="menu-icon">👥</span>
+            <span>Data Warga</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kegiatan/kegiatan.html" class="menu-item">
+            <span class="menu-icon">📢</span>
+            <span>Kegiatan/Pengumuman</span>
+          </a>
+        </li>
+        <li>
+          <a href="../laporan/laporan.html" class="menu-item">
+            <span class="menu-icon">📈</span>
+            <span>Laporan RT/RW</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kritiksaran/kritiksaran.html" class="menu-item">
+            <span class="menu-icon">💬</span>
+            <span>Kritik dan Saran</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="user-section">
+        <div class="user-info">
+          <div class="user-avatar">👤</div>
+          <div class="user-details">
+            <h4>Admin</h4>
+            <p>RT/RW Management</p>
+          </div>
+        </div>
+        <a href="../index.html" class="btn-logout">Keluar</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Dashboard RT/RW</h1>
+        <p>Sistem Informasi Kependudukan Tingkat RT/RW</p>
+      </div>
+
+      <!-- Stats Cards -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon blue">👥</div>
+          <div class="stat-label">Total Warga</div>
+          <div class="stat-value">452</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon green">🏠</div>
+          <div class="stat-label">Jumlah KK</div>
+          <div class="stat-value">120</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon orange">🏡</div>
+          <div class="stat-label">Jumlah RT</div>
+          <div class="stat-value">12</div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content-grid">
+        <div class="content-card">
+          <h3>Statistik Penduduk</h3>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">👫 Jenis Kelamin</div>
+              <div class="list-item-subtitle">
+                Distribusi laki-laki dan perempuan
+              </div>
+            </div>
+            <span class="badge info">L: 230 | P: 222</span>
+          </div>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">📊 Kategori Usia</div>
+              <div class="list-item-subtitle">Anak, Remaja, Dewasa, Lansia</div>
+            </div>
+            <span class="badge warning">A: 90 | R: 120 | D: 180 | L: 62</span>
+          </div>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">⏳ Rata-rata Umur</div>
+              <div class="list-item-subtitle">
+                Berdasarkan seluruh warga terdata
+              </div>
+            </div>
+            <span class="badge success">32 Tahun</span>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Statistik RW</h3>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">RW 001</div>
+              <div class="list-item-subtitle">4 RT, 185 warga</div>
+            </div>
+            <span class="badge info">Aktif</span>
+          </div>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">RW 002</div>
+              <div class="list-item-subtitle">5 RT, 210 warga</div>
+            </div>
+            <span class="badge info">Aktif</span>
+          </div>
+
+          <div class="list-item">
+            <div>
+              <div class="list-item-title">RW 003</div>
+              <div class="list-item-subtitle">3 RT, 120 warga</div>
+            </div>
+            <span class="badge info">Aktif</span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

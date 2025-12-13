@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laporan RT/RW - Sistem Kependudukan</title>
+    <link rel="stylesheet" href="laporan.css" />
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-dashboard">🏘️</div>
+        <h2>Sistem Data Kependudukan</h2>
+        <p>Data Kependudukan Skala RT & RW</p>
+      </div>
+
+     <ul class="menu">
+        <li>
+          <a href="../dashboard/dashboard.html" class="menu-item">
+            <span class="menu-icon">📊</span>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="../datawarga/datawarga.html" class="menu-item">
+            <span class="menu-icon">👥</span>
+            <span>Data Warga</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kegiatan/kegiatan.html" class="menu-item">
+            <span class="menu-icon">📢</span>
+            <span>Kegiatan/Pengumuman</span>
+          </a>
+        </li>
+        <li>
+          <a href="../laporan/laporan.html" class="menu-item">
+            <span class="menu-icon">📈</span>
+            <span>Laporan RT/RW</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kritiksaran/kritiksaran.html" class="menu-item">
+            <span class="menu-icon">💬</span>
+            <span>Kritik dan Saran</span>
+          </a>
+        </li>
+      </ul>
+
+
+      <div class="user-section">
+        <div class="user-info">
+          <div class="user-avatar">👤</div>
+          <div>
+            <h4 style="font-size: 14px">Admin</h4>
+            <p style="font-size: 11px; color: rgba(255,255,255,0.7)">
+              RT/RW Management
+            </p>
+          </div>
+        </div>
+        <a href="../index.html" class="btn-logout">Keluar</a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Laporan RT/RW</h1>
+        <p>Rekap data bulanan dan aktivitas lingkungan</p>
+      </div>
+
+      <div class="summary-grid">
+        <div class="summary-box">
+          <div class="summary-title">Total Warga</div>
+          <div class="summary-value">452</div>
+        </div>
+        <div class="summary-box">
+          <div class="summary-title">Jumlah KK</div>
+          <div class="summary-value">120</div>
+        </div>
+        <div class="summary-box">
+          <div class="summary-title">RT Aktif</div>
+          <div class="summary-value">12</div>
+        </div>
+        <div class="summary-box">
+          <div class="summary-title">Kegiatan Bulanan</div>
+          <div class="summary-value">8</div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <h3>Rekap Laporan RT/RW</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Periode</th>
+              <th>RT / RW</th>
+              <th>Jenis Laporan</th>
+              <th>Jumlah Warga</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Januari 2025</td>
+              <td>RW 001</td>
+              <td>Data Kependudukan</td>
+              <td>185</td>
+              <td><span class="badge success">Lengkap</span></td>
+            </tr>
+            <tr>
+              <td>Januari 2025</td>
+              <td>RW 002</td>
+              <td>Data Kegiatan</td>
+              <td>210</td>
+              <td><span class="badge info">Diproses</span></td>
+            </tr>
+            <tr>
+              <td>Januari 2025</td>
+              <td>RW 003</td>
+              <td>Data Keamanan</td>
+              <td>120</td>
+              <td><span class="badge warning">Belum Lengkap</span></td>
+            </tr>
+            <tr>
+              <td>Desember 2024</td>
+              <td>RW 001</td>
+              <td>Rekap Tahunan</td>
+              <td>185</td>
+              <td><span class="badge success">Lengkap</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="content-card">
+        <h3>Catatan Tambahan</h3>
+        <p style="font-size: 14px; color: #555; line-height: 1.6;">
+          • RW 003 masih perlu melengkapi laporan keamanan periode Januari.<br />
+          • Kegiatan kebersihan berjalan dengan baik di RW 001 dan RW 002.<br />
+          • Diharapkan setiap RT lebih aktif dalam menyampaikan laporan tepat waktu.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

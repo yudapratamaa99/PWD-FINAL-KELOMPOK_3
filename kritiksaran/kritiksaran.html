@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kritik & Saran - Sistem RT/RW</title>
+    <link rel="stylesheet" href="kritiksaran.css" />
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-dashboard">🏘️</div>
+        <h2>Sistem Data Kependudukan</h2>
+        <p>Data Kependudukan Skala RT & RW</p>
+      </div>
+
+<ul class="menu">
+        <li>
+          <a href="../dashboard/dashboard.html" class="menu-item">
+            <span class="menu-icon">📊</span>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="../datawarga/datawarga.html" class="menu-item">
+            <span class="menu-icon">👥</span>
+            <span>Data Warga</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kegiatan/kegiatan.html" class="menu-item">
+            <span class="menu-icon">📢</span>
+            <span>Kegiatan/Pengumuman</span>
+          </a>
+        </li>
+        <li>
+          <a href="../laporan/laporan.html" class="menu-item">
+            <span class="menu-icon">📈</span>
+            <span>Laporan RT/RW</span>
+          </a>
+        </li>
+        <li>
+          <a href="../kritiksaran/kritiksaran.html" class="menu-item">
+            <span class="menu-icon">💬</span>
+            <span>Kritik dan Saran</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="user-section">
+        <div class="user-info">
+          <div class="user-avatar">👤</div>
+          <div>
+            <h4 style="font-size: 14px">Admin</h4>
+            <p style="font-size: 11px; color: rgba(255,255,255,0.7)">
+              RT/RW Management
+            </p>
+          </div>
+        </div>
+        <a href="../index.html" class="btn-logout">Keluar</a>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Kritik & Saran</h1>
+        <p>Sampaikan masukan untuk meningkatkan pelayanan dan lingkungan warga</p>
+      </div>
+
+      <!-- Form Kritik & Saran -->
+      <div class="content-card">
+        <h3>Form Kritik & Saran</h3>
+
+        <div class="input-group">
+          <label>Nama</label>
+          <input type="text" placeholder="Masukkan nama Anda" />
+        </div>
+
+        <div class="input-group">
+          <label>Kategori</label>
+          <input type="text" placeholder="Contoh: Kebersihan, Keamanan, dll" />
+        </div>
+
+        <div class="input-group">
+          <label>Isi Kritik / Saran</label>
+          <textarea placeholder="Tulis masukan Anda di sini..."></textarea>
+        </div>
+
+        <button class="btn-submit">Kirim</button>
+      </div>
+
+      <!-- Daftar Kritik & Saran -->
+      <div class="content-card">
+        <h3>Daftar Kritik & Saran Warga</h3>
+
+        <div class="feedback-item">
+          <div class="feedback-title">Lampu Jalan Mati di RT 04</div>
+          <div class="feedback-date">Dikirim: 10 Januari 2025</div>
+          <div class="feedback-text">
+            Mohon perbaikan lampu jalan yang sudah mati sejak minggu lalu.
+          </div>
+          <span class="badge warning">Kritik</span>
+        </div>
+
+        <div class="feedback-item">
+          <div class="feedback-title">Usulan Tempat Sampah Baru</div>
+          <div class="feedback-date">Dikirim: 5 Januari 2025</div>
+          <div class="feedback-text">
+            Sebaiknya disediakan tempat sampah tambahan di dekat pos ronda.
+          </div>
+          <span class="badge success">Saran</span>
+        </div>
+
+        <div class="feedback-item">
+          <div class="feedback-title">Kegiatan Olahraga Rutin</div>
+          <div class="feedback-date">Dikirim: 2 Januari 2025</div>
+          <div class="feedback-text">
+            Warga mengusulkan kegiatan olahraga rutin setiap minggu.
+          </div>
+          <span class="badge info">Masukan</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

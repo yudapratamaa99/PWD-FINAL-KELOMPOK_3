@@ -479,17 +479,17 @@ textarea {
 /* Responsive */
 @media (max-width: 768px) {
   .sidebar {
-    position: fixed; /* tetap fixed */
-    width: 200px; /* lebih kecil agar muat di mobile */
+    position: fixed; 
+    width: 200px; 
     height: 100vh;
     overflow-y: auto;
-    transform: translateX(0); /* hilangkan translateX agar tidak hilang */
+    transform: translateX(0); 
     padding: 15px 0;
     z-index: 1000;
   }
 
   .main-content {
-    margin-left: 200px; /* sesuaikan margin dengan lebar sidebar */
+    margin-left: 200px; 
     padding: 20px;
   }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kritik & Saran - Sistem RT/RW</title>
-    <link rel="stylesheet" href="kritiksaran.css" />
+    <link rel="stylesheet" href="kritiksaran.css">
   </head>
 
   <body>
@@ -16,7 +16,7 @@
         <p>Data Kependudukan Skala RT & RW</p>
       </div>
 
-<ul class="menu">
+      <ul class="menu">
         <li>
           <a href="../dashboard/dashboard.html" class="menu-item">
             <span class="menu-icon">📊</span>
@@ -59,7 +59,7 @@
             </p>
           </div>
         </div>
-    <a href="../index.html" class="btn-logout">Keluar</a>
+        <a href="../index.html" class="btn-logout">Keluar</a>
       </div>
     </aside>
 
@@ -74,22 +74,24 @@
       <div class="content-card">
         <h3>Form Kritik & Saran</h3>
 
-        <div class="input-group">
-          <label>Nama</label>
-          <input type="text" placeholder="Masukkan nama Anda" />
-        </div>
+        <form>
+          <div class="input-group">
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" />
+          </div>
 
-        <div class="input-group">
-          <label>Kategori</label>
-          <input type="text" placeholder="Contoh: Kebersihan, Keamanan, dll" />
-        </div>
+          <div class="input-group">
+            <label for="kategori">Kategori</label>
+            <input type="text" id="kategori" name="kategori" placeholder="Contoh: Kebersihan, Keamanan, dll" />
+          </div>
 
-        <div class="input-group">
-          <label>Isi Kritik / Saran</label>
-          <textarea placeholder="Tulis masukan Anda di sini..."></textarea>
-        </div>
+          <div class="input-group">
+            <label for="isi">Isi Kritik / Saran</label>
+            <textarea id="isi" name="isi" placeholder="Tulis masukan Anda di sini..."></textarea>
+          </div>
 
-        <button class="btn-submit">Kirim</button>
+          <button type="submit" class="btn-submit">Kirim</button>
+        </form>
       </div>
 
       <!-- Daftar Kritik & Saran -->

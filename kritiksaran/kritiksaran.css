@@ -68,7 +68,7 @@ body {
   align-items: center;
   gap: 12px;
   color: rgba(255, 255, 255, 0.8);
-  text-decoration: none; /* penting agar tidak bergaris */
+  text-decoration: none;
 }
 
 .menu-item:hover {
@@ -164,6 +164,10 @@ body {
 }
 
 /* Form */
+form {
+  width: 100%;
+}
+
 .input-group {
   margin-bottom: 20px;
 }

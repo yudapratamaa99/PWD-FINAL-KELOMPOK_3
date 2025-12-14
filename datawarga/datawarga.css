@@ -261,20 +261,6 @@ body {
   min-width: 150px;
 }
 
-.btn-add {
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #3fb8ff, #1a94d3);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  white-space: nowrap;
-}
-
 /* Table */
 .table-container {
   overflow-x: auto;

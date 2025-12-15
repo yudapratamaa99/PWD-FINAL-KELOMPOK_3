@@ -311,17 +311,26 @@ th {
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
+<<<<<<< HEAD
 /* Hover */
+=======
+>>>>>>> 25f1d09 (prettier)
 .btn-delete:hover {
   background-color: #c0392b;
 }
 
+<<<<<<< HEAD
 /* Active (klik) */
+=======
+>>>>>>> 25f1d09 (prettier)
 .btn-delete:active {
   transform: scale(0.96);
 }
 
+<<<<<<< HEAD
 /* Optional: agar sejajar di tabel */
+=======
+>>>>>>> 25f1d09 (prettier)
 .text-center .btn-delete {
   margin: 0 auto;
 }
